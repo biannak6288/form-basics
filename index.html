@@ -12,15 +12,25 @@
 
 <body>
     <div class="container">
-        <h1>Form Basics</h1>
+        <h1> School Survey</h1>
         <hr>
         <form action="http://www.w3schools.com/tags/demo_form.asp" method="get">
 
             Name:
             <input type="text" name="name"><br> E-mail:
-            <input type="email" name="email"><br>
+            <input type="email" name="email" placeholder="@hstat.org"><br>
 
-            <!--add your own inputs below-->
+        <h3>Please choose your gender</h3>
+        <input type="radio" name="sex" value="male">Male  
+        <input type="radio" name="sex" value="female">Female
+        
+        <h3>Are you a student? If so, please choose the correct schooling level.</h3>
+        <select name="school">
+            <option value="grade school" selected> grade school</option>
+            <option value="middle school" selected> middle school</option>
+            <option value="high school" selected> high school</option>
+        </select>  
+        <br>
 
 
 
